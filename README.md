@@ -4,7 +4,7 @@ Contains the files needed for working with cross-lingual data.
 
 ## Files Included
 1. <b>accuracy.py</b>:	File for testing the accuracy of a generated alignment. Run as:  
-	```python3 accuracy.py -p ./lit-el -d \t -a ./el_final -at 1```  
+	```python3 accuracy.py -p ./lit-el -d "\t" -a ./el_final -at 1```  
 	
 	List of Arguments (all compulsory):  
 	`-p` or `--parallel`:	Parallel Data File  
