@@ -16,7 +16,7 @@ Contains the files needed for working with cross-lingual data.
 
 3. <b>lit-el</b>:	Test Parallel Data File for `accuracy.py` and `parallel_data_accuracy.py`
 
-4. <b>parallel_data_accuracy.py</b>:	File for testing the accuracy of the parallel data (sentence-level). Run as:
+4. <b>parallel_data_accuracy.py</b>:	File for testing the accuracy of the parallel data (sentence-level). Run as:  
 	```python3 parallel_data_accuracy.py --parallel ./lit-el```  
 	
 	List of Arguments (all compulsory):  
