@@ -47,11 +47,13 @@ Contains the files needed for working with cross-lingual data.
     
     The column `Standard Code` has following properties:  
         * It is a CSV list  
+        
         * The CSV values are arranged as follows:  
           * ISO 639-1 Code  
           * ISO 639-2 Code  
           * ISO 639-3 Code  
           * WALS Code  
+          
         * The following notations hold in CSV values:  
           * `XXX`: List big enough to not fit here  
           * `abc [A, B, C]`: `abc` as inclusive code, along with the ones in braces  
