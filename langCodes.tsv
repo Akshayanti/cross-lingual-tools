@@ -1,0 +1,135 @@
+S.No.	Language	Standard Code
+1.	Afrikaans	af, afr, afr, afr
+2.	Amharic	am, amh, amh, amh
+3.	Arabic	ar, ara, ara [XXX], arb [XXX]
+4.	Aymara	ay, aym, aym [ayr, ayc], aym
+5.	Azerbaijani	az, aze, aze [azj, azb, slq, qxq], aze
+6.	Baoulé	-, -, bci, -
+7.	Central Bikol	-, -, bcl, bkl
+8.	Bemba	-, bem, bem, bem
+9.	Bengali	bn, ben, ben, ben
+10.	Bislama	bi, bis, bis, bsm
+11.	Bulgarian	bg, bul, bul, bul
+12.	Catalan	ca, cat, cat, ctl
+13.	Cebuano	-, ceb, ceb, ceb
+14.	Czech	cs, [cze, ces], ces, cze
+15.	Danish	da, dan, [dan, jut], dsh
+16.	German	de, [ger, deu], deu [XXX], ger
+17.	Ewe	ee, ewe, [ewe, wci, kef], [ewe, ewa]
+18.	Efik	-, efi, efi, efi
+19.	Greek	el, [gre, ell], ell, [gcy, grk]
+20.	English	en, eng, eng, eng
+21.	Spanish	es, spa, spa, [spa, spc]
+22.	Estonian	et, est, est [ekk, vro], est
+23.	Persian	fa, [per, fas], fas [XXX], prs
+24.	Finnish	fi, fin, fin, fin
+25.	Fijian	fj, fij, fij, [fij, fiw]
+26.	French	fr, [fre, fra], fra, fre
+27.	Ga	-, gaa, gaa, ga
+28.	Gilbertese (Kiribati)	-, gil, gil, krb
+29.	Guarani	-, -, gug, gua
+30.	Gujarati	gu, guj, guj, guj
+31.	Fon (Gungbe dialect)	-, fon, fon (guw), fon (guw)
+32.	Hebrew	he, heb, [heb, hbo, smp, obm, xdm], [heb, hba]
+33.	Hiligaynon	-, hil, hil, hil
+34.	Hindi	hi, hin, hin, hin
+35.	Hiri Motu	ho, hmo, hmo, -
+36.	Croatian	hr, hrv, hrv, scr
+37.	Haitian Creole	ht, hat, hat, hcr
+38.	Hungarian	hu, hun, [hun, ohu], hun
+39.	Armenian	hy, [arm, hye], [hye, hyw, xcl, axm], [arz, arw, arm]
+40.	Indonesian	id, ind, ind, [ind, inj]
+41.	Igbo	ig, ibo, ibo, igb
+42.	Ilocano	-, ilo, ilo, ilo
+43.	Icelandic	is, [ice, isl], isl, ice
+44.	Italian	it, ita, ita, [ifi, ita]
+45.	Japanese	ja, jpn, jpn, jpn
+46.	Georgian	ka, [geo, kat], kat, geo
+47.	Mongolian	mn, mon, mon [khk, mvf], [khk, ord]
+48.	Kikuyu (Gikuyu)	ki, kik, kik, kik
+49.	Kazakh	kk, kaz, kaz, kaz
+50.	Greenlandic	kl, kal, kal, [gre, gso, grw]
+51.	Khmer	km, khm, [khm, kxm], khm
+52.	Korean	ko, kor, [kor, jje, okm, oko], kor
+53.	Kaonde	-, -, kqn, -
+54.	Kongo (Kikongo)	kg, kon, kon [kng, ldi, kwy, yom], kon
+55.	Kyrgyz	ky, kir, kir, kgz
+56.	Luganda (Ganda, Oluganda)	lg, lug, lug, lda
+57.	Lingala	ln, lin, lin, lin
+58.	Lozi (siLozi, Rozi)	-, loz, loz, loz
+59.	Lithuanian	lt, lit, [lit, olt], lit
+60.	Luvale	-, -, lue, luv
+61.	Lunda (Chilunda)	-, lun, lun, lbu
+62.	Luo Dialect	-, luo, luo, luo
+63.	Latvian	lv, lav, lav [lvs, ltg], lat
+64.	Malagasy	mg, mlg, mlg [XXX], mal
+65.	Macedonian	mk, [mac, mkd], mkd, mcd
+66.	Malayalam	ml, mal, mal, mym
+67.	Mossi (Mooré)	-, mos, mos, moo
+68.	Marathi	mr, mar, [mar, omr], mhi
+69.	Maltese	mt, mlt, mlt, mlt
+70.	Burmese	my, [bur, mya], mya [int, tvn, tco, rki, rmz], brm
+71.	Nepali (Khas-Kura)	ne, nep, nep [npi, dty], nep
+72.	Dutch	nl, [dut, nld], nld, [dur, dbr, dli]
+73.	Norwegian	no [nb, nn], nor [nob, nno], nor [nob, nno], nor
+74.	Northern Sotho (Sepedi, Pedi)	-, nso, [nso, brl, two], stn
+75.	Nyaneka	-, -, nyk, -
+76.	Chewa (Nyanja)	ny, nya, nya, cic
+77.	Oromo	om, orm, orm [gax, hae, orc, gaz, ssn], [orb, orh, orw, owc]
+78.	Ossetian (Ossete, Ossetic)	os, oss, oss, oss
+79.	(Salitan) Pangasinan 	-, pag, pag, pnn
+80.	Papiamento (Papiamentu)	-, pap, pap, pap
+81.	Punjabi (Panjabi)	pa, pan, [pan, pnb], pan
+82.	Pijin	-, -, pis, -
+83.	Polish	pl, pol, pol [szl], pol
+84.	Pohnpeian (Poapean)	-, pon, pon, poh
+85.	Portugese	pt, por, por, por
+86.	Quechua (Runasimi)	-, -, que, yum
+87.	Ayacucho Quechua (Chanca, Chanka)	-, -, [quy, qxu], qay
+88.	Cusco Quechua	-, -, [quz, qve], qcu
+89.	Romanian	ro, [rum, ron], ron, rom
+90.	Kirundi (Rundi)	rn, run, run, rnd
+91.	Russian	ru, rus, rus, rus
+92.	Kinyarwanda (Igifumbira)	rw, kin, kin, kin
+93.	Sango (Sangho)	sg, sag, [sag, snj], san
+94.	Sinhalese (Sinhala)	si, sin, sin, snh
+95.	Slovak	sk, [slo, slk], slk, svk
+96.	Slovene (Slovenian)	sl, slv, slv, slo
+97.	Samoan (Gagana Sãmoa)	sm, smo, smo, sam
+98.	Shona	sn, sna, [sna, twl, mxc, twx, ndc], shn
+99.	Albanian	sq, [alb, sqi], sqi [aae, aat, aln, als], alb
+100.	Sranan Tongo (Surinaams, Taki Taki)	-, srn, srn, sra
+101.	Sesotho (Sotho)	st, sot, sot, ses
+102.	Swedish	sv, swe, swe, [swe, swv]
+103.	Swahili (Kiswahili)	sw, swa, swa [swc, swh, ymk, wmw], swa
+104.	Tamil	ta, tam, [tam, oty, ptq], [tml, tsp]
+105.	Telugu	te, tel, tel, tel
+106.	Thai (Siamese)	th, tha, tha, tha
+107.	Tigrinya (Tigrina)	ti, tir, tir, tig
+108.	Tagalog	(Filipino)
+109.	Tswana (Setswana)	tn, tsn, tsn, tsw
+110.	Tonga (Chitonga)	-, -, toi [dov], toz
+111.	Tongan	to, ton, ton, tng
+112.	Tok Pisin	-, tpi, tpi, tpi
+113.	Tsonga (Xitsonga)	ts, tso, tso, tsn
+114.	Tatar	tt, tat, tat [sty], [tvo, ttb, tmi]
+115.	Tumbuka	-, tum, tum, -
+116.	Turkish	tr, tur, tur, tur
+117.	Tuvaluan (Tuvalu)	-, tvl, tvl, tvl
+118.	Twi (Akan Kasa)	tw [Twi], twi, twi, -
+119.	Tahitian (Reo Tahiti)	ty, tah, tah, tah
+120.	Tzotzil	-, -, tzo, tzo
+121.	Ukrainian	uk, ukr, ukr, ukr
+122.	Umbundu (South Umbundu)	-, umb, umb, umb
+123.	Urdu	ur, urd, urd, urd
+124.	Uzbek	uz, uzb, uzb [uzn, uzs], [uzb, uzn]
+125.	Venda (Tshivenda)	ve, ven, ven, ven
+126.	Vietnamese	vi, vie, vie, vie
+127.	Waray-Waray	-, war, war, wwy
+128.	Wallisian ('Uvean)	-, -, wls, wll
+129.	Xhosa (isiXhosa)	xh, xho, xho, xho
+130.	Yoruba	yo, yor, yor, yor
+131.	Yucatec Maya	-, -, yua, yct
+132.	Ishtmus/Juchitán Zapotec	-, -, zai, zai
+133.	Zulu	zu, zul, zul, [zul, zno, zso]
+134.	Kannada	kn, kan, kan, knd
