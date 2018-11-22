@@ -4,7 +4,7 @@ Contains the files needed for working with cross-lingual data.
 
 ## Files Included
 
-1. <b>accuracy.py</b>
+1. <details><summary>accuracy.py</summary>
 
     File for testing the accuracy of a generated alignment.
     
@@ -15,25 +15,14 @@ Contains the files needed for working with cross-lingual data.
         * `-at` or `--alignment_type`:	The alignment counts index from this value
     
     Usage:    ```python3 accuracy.py -p ./lit-el -d \t -a ./el_final -at 1```
-    
-2. <b>el_final</b>
+    </details>
+
+2. <details><summary>el_final</summary>
 
     Test Alignment file for `accuracy.py`
-
-3. <b>lit-el</b>
-
-    Test Parallel Data File for `accuracy.py` and `parallel_data_accuracy.py`
-
-4. <b>parallel_data_accuracy.py</b>
-
-    File for testing the accuracy of the parallel data (sentence-level).
+    </details>
     
-    List of Arguments (all compulsory):  
-        * `--parallel`:	Compute accuracy for Parallel Data Files. Multiple files will all be calculated separately, and their scores reported.
-    
-    Usage:    ```python3 parallel_data_accuracy.py --parallel ./lit-el```
-    
-5. <b>langCodes.tsv</b>
+3. <details><summary>langCodes.tsv</summary>
 
     TSV File containing the language codes for 134 languages, arranged in alphabetical order of their name, with their codes in 4 major standards. The columns are named as `Language` and `Standard Code` out of which the second is a CSV Value arranged as `ISO 639-1 Code, ISO 639-2 Code, ISO 639-3 Code, WALS Code`.
     
@@ -44,6 +33,21 @@ Contains the files needed for working with cross-lingual data.
     * `-`: the language is not coded as per this standard  
     
     Information on WALS can be found [here](WALS).
+    </details>
 
+4. <details><summary>lit-el</summary>
 
+    Test Parallel Data File for `accuracy.py` and `parallel_data_accuracy.py`
+    </details>
+   
+5.  <details><summary>parallel_data_accuracy.py</summary>
+
+    File for testing the accuracy of the parallel data (sentence-level).
+    
+    List of Arguments (all compulsory):  
+        * `--parallel`:	Compute accuracy for Parallel Data Files. Multiple files will all be calculated separately, and their scores reported.
+    
+    Usage:    ```python3 parallel_data_accuracy.py --parallel ./lit-el```
+    </details>
+    
 [WALS]: https://wals.info/
