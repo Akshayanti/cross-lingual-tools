@@ -1,53 +1,78 @@
 # cross-lingual-tools
 
-Contains the files needed for working with cross-lingual data.
+Contains the files needed for working with cross-lingual data. The following are the folders present in the directory. Click on the link to see the contents of the folder.
 
-## Files Included
+1. [Root Directory](#Root-Directory)
 
-1. <details><summary>accuracy.py</summary>
+    Files not included in any project, but can be used all by themselves as stand-only files.
 
-    File for testing the accuracy of a generated alignment.
-    
-    List of Arguments (all compulsory):  
-        * `-p` or `--parallel`:	Parallel Data File  
-        * `-d` or `--delimiter`:	Delimiter seperating target and source side in parallel data file  
-        * `-a` or `--alignment`:	Alignment file  
-        * `-at` or `--alignment_type`:	The alignment counts index from this value
-    
-    Usage:    ```python3 accuracy.py -p ./lit-el -d \t -a ./el_final -at 1```
-    </details>
+2. [Parallel Data](parallel_data/README.md)
 
-2. <details><summary>el_final</summary>
+    Tools that can be used to check the accuracy of alignments, quality of parallel data.
 
-    Test Alignment file for `accuracy.py`
-    </details>
-    
-3. <details><summary>langCodes.tsv</summary>
+3. Tagset Converter
+
+    Convert [PDT](http://ufal.mff.cuni.cz/pdt/Morphology_and_Tagging/Doc/hmptagqr.html), [Penn Treebank](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html), [Perseus](https://github.com/PerseusDL/treebank_data/blob/master/v2.1/Latin/TAGSET.txt) and [PDT-based Tamil] (http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/morph_annotation.html#2.4.Positional_Tagset_for_Tamil) tagsets into [UD](http://universaldependencies.org/u/pos/all.html) tagset. 
+
+### Root Directory
+
+1. <details><summary>langCodes.tsv</summary>
 
     TSV File containing the language codes for 134 languages, arranged in alphabetical order of their name, with their codes in 4 major standards. The columns are named as `Language` and `Standard Code` out of which the second is a CSV Value arranged as `ISO 639-1 Code, ISO 639-2 Code, ISO 639-3 Code, WALS Code`.
     
     The following notations hold in CSV values:  
-    * `XXX`: List big enough to not fit here  
-    * `abc [A, B, C]`: `abc` as inclusive code, along with the ones in braces  
-    * `[A, B, C]`: all the codes mentioned are used, each for different dialects/variations of the language  
-    * `-`: the language is not coded as per this standard  
+    
+    |Notation|Implication|
+    |:------:|:----------|
+    | `XXX` | List big enough to not fit here |
+    | `abc [A, B, C]` | `abc` as inclusive code, along with the ones in braces |
+    | `[A, B, C]` | all the codes mentioned are used, each for different dialects/variations of the language|
+    | `-` | the language is not coded as per this standard|
     
     Information on WALS can be found [here](WALS).
     </details>
-
-4. <details><summary>lit-el</summary>
-
-    Test Parallel Data File for `accuracy.py` and `parallel_data_accuracy.py`
-    </details>
-   
-5.  <details><summary>parallel_data_accuracy.py</summary>
-
-    File for testing the accuracy of the parallel data (sentence-level).
     
-    List of Arguments (all compulsory):  
-        * `--parallel`:	Compute accuracy for Parallel Data Files. Multiple files will all be calculated separately, and their scores reported.
+2.  <details><summary>wals.py</summary>
+
+    Python3 File to  
     
-    Usage:    ```python3 parallel_data_accuracy.py --parallel ./lit-el```
-    </details>
+    - Find the most similar languages to given language.
+    - Find the centroid language of a given genus, i.e.  a language most similar to other languages of the genus.
+    - Find languages that are most dissimilar to any other language in the given genus.
+
+    List of Arguments (all compulsory):
     
-[WALS]: https://wals.info/
+    * `-i` or `--input`:	Input file containing the WALS data in a tsv-format  
+
+    List of Positional Arguments, and the sub-arguments (Mutually-exclusive):
+    
+    * `similarity`: Display the WALS code and similarity scores for most similar languages to given input language's WALS code.
+
+        |Sub-Arguments|Function|
+        |:------------|:-------|
+        |`-c` or `--code`|	Input WALS code for the source language |
+        |`-n` or `--number`| Number of languages to be displayed in the output|  
+
+
+    * `centroid`:   Display the WALS code and similarity scores for the centroid language of an input genus, i.e.  a language most similar to other languages of the genus.
+
+        |Sub-Arguments|Function|
+        |:------------|:-------|
+        |`-g` or `--genus`|	Input genus to find the centroid for|  
+    
+
+    * `dissimilarity`: Display the WALS Code and similarity scores of the languages that are most dissimilar to any other language in the given genus.
+    
+        |Sub-Arguments|Function|
+        |:------------|:-------|
+        |`-g` or `--genus`|	Input genus to find the centroid for|
+        |`-n` or `--number`| Number of languages to be displayed in the output|  
+
+
+        The input file for the task can be downloaded from [here](https://wals.info/languoid).
+    
+    Usage:
+
+    - ```python3 wals.py -i input_file similar -c <wals_code> -n <output_count>```
+    - ```python3 wals.py -i input_file centroid -g <genus_name>```
+    - ```python3 wals.py -i input_file dissimilar -g <genus_name> -n <output_count>```
