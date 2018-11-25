@@ -1,6 +1,6 @@
 ### Parallel Data
 
-    Contains the following tools to work with the parallel-data files:
+Contains the following tools to work with the parallel-data files:
 
 #### Program Files
 1.  <details><summary>accuracy.py</summary>

@@ -1,6 +1,6 @@
 # cross-lingual-tools
 
-Contains the files needed for working with cross-lingual data. The following are the folders present in the directory. Click on the link to see the contents of the folder.
+Contains the files needed for working with cross-lingual data, all developed in-house. The following are the folders present in the directory. Click on the link to see the contents of the folder.
 
 1. [Root Directory](#Root-Directory)
 
@@ -10,9 +10,9 @@ Contains the files needed for working with cross-lingual data. The following are
 
     Tools that can be used to check the accuracy of alignments, quality of parallel data.
 
-3. Tagset Converter
+3. [Tagset Converter](tagset_converter/README.md)
 
-    Convert [PDT](http://ufal.mff.cuni.cz/pdt/Morphology_and_Tagging/Doc/hmptagqr.html), [Penn Treebank](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html), [Perseus](https://github.com/PerseusDL/treebank_data/blob/master/v2.1/Latin/TAGSET.txt) and [PDT-based Tamil] (http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/morph_annotation.html#2.4.Positional_Tagset_for_Tamil) tagsets into [UD](http://universaldependencies.org/u/pos/all.html) tagset. 
+    Convert [PDT](http://ufal.mff.cuni.cz/pdt/Morphology_and_Tagging/Doc/hmptagqr.html), [Penn Treebank](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html), [Perseus](https://github.com/PerseusDL/treebank_data/blob/master/v2.1/Latin/TAGSET.txt) and PDT based [PDT-based Tamil](http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/morph_annotation.html#2.4.Positional_Tagset_for_Tamil) tagsets into [UD](http://universaldependencies.org/u/pos/all.html) tagset. 
 
 ### Root Directory
 
