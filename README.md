@@ -1,4 +1,6 @@
 # cross-lingual-tools
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 
 Contains the files needed for working with cross-lingual data, all developed in-house. The following are the folders present in the directory. Click on the link to see the contents of the folder.
 
