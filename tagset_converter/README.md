@@ -2,10 +2,10 @@
 
 Converts the following tagsets into the [UD](http://universaldependencies.org/u/pos/all.html) tagset:
 
-    - [PDT](http://ufal.mff.cuni.cz/pdt/Morphology_and_Tagging/Doc/hmptagqr.html)
-    - [Penn Treebank](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
-    - [Perseus](https://github.com/PerseusDL/treebank_data/blob/master/v2.1/Latin/TAGSET.txt) 
-    - [PDT-based Tamil tagset](http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/morph_annotation.html#2.4.Positional_Tagset_for_Tamil)
+- [PDT](http://ufal.mff.cuni.cz/pdt/Morphology_and_Tagging/Doc/hmptagqr.html)
+- [Penn Treebank](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
+- [Perseus](https://github.com/PerseusDL/treebank_data/blob/master/v2.1/Latin/TAGSET.txt) 
+- [PDT-based Tamil tagset](http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/morph_annotation.html#2.4.Positional_Tagset_for_Tamil)
 
 #### Program Files
 

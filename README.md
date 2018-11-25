@@ -44,6 +44,7 @@ Contains the files needed for working with cross-lingual data, all developed in-
     
     * `-i` or `--input`:	Input file containing the WALS data in a tsv-format  
 
+
     List of Positional Arguments, and the sub-arguments (Mutually-exclusive):
     
     * `similarity`: Display the WALS code and similarity scores for most similar languages to given input language's WALS code.
