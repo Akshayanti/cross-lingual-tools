@@ -23,9 +23,11 @@ def find_orig(param1, name):
         if param1 == "wals_code":
             if line[0] == name:
                 return i
-        if param1 == "genus":
+        elif param1 == "genus":
             if line[6] == name:
                 return i
+    print("WALS CODE NOT FOUND!")
+    exit(0)
 
 
 def calc_sim(src, sink):
@@ -38,11 +40,28 @@ def calc_sim(src, sink):
 
 def calc_sim2(src, sink):
     features = 0
-    for i in range(0, len(src)):
+    total = 0
+    
+    # genus
+    if src[6] != "" and sink[6] != "":
+        total += 0.5
+        if src[6] == sink[6]:
+            features += 0.5
+            
+    # family
+    if src[7] != "" and sink[7] != "":
+        total += 0.5
+        if src[7] == sink[7]:
+            features += 0.5
+    
+    # Other features
+    for i in range(10, len(src)):
+        total += 1
         if src[i] != "" and sink[i] != "":
             if src[i] == sink[i]:
                 features += 1
-    return features / len(src)
+    
+    return features / total
 
 
 def get_all_field(fieldname, field_value):
@@ -56,7 +75,11 @@ def get_all_field(fieldname, field_value):
         line = contents[i].split("\t")
         if line[param] == field_value:
             op.append(line)
-    return op
+    if len(op) != 0:
+        return op
+    else:
+        print("No such " + fieldname + "found")
+        exit(0)
 
 
 def calc_overall(simi):
@@ -81,7 +104,7 @@ if __name__ == '__main__':
             for i in range(1, len(contents)):
                 if source != i:
                     sim[contents[i].split("\t")[0]] = calc_sim(contents[source], contents[i])
-            print("Top" + str(args.number) + "most similiar languages-\n\n"
+            print("Top " + str(args.number) + " most similiar languages-\n\n"
                   "Wals_Code\tSimilarity Score")
             for k1,v1 in sorted(sim.items(), key=lambda k_v: k_v[1], reverse=True)[0:args.number]:
                 print(k1, v1, sep="\t")
