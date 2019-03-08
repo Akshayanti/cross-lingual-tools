@@ -26,6 +26,20 @@ Contains the following tools to work with the parallel-data files:
     Usage:    ```python3 parallel_data_accuracy.py --parallel ./lit-el```
     </details>
 
+3.  <details><summary>klcpos3.py</summary>
+
+	File for calculating klcpos3 measure of source and target treebanks for single-source and multi-source-weighted delexicalised parsing.
+
+	List of Arguments (all compulsory):
+		* `--source`: The source file(s) that are to be used for the parsing task, in CONLLU format
+		* `--target`: The target file that is to be used for the parsing task, in CONLLU format
+		* One of the two:
+			* `--single_source`: List the source files in the decreasing order of the klcpos3 similarity measure.
+			* `--multi_source`: List the source files in the decreasing order of the klcpos3<sup>-4</sup> measure. The output values are not normalised.
+
+	Usage:	```python3 klcpos3.py --source <sourcefiles> --target <targetfile> --single_source/--multi_source```
+	</details>
+	
 #### Data Files
 1. <details><summary>el_final</summary>
 
